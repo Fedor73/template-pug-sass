@@ -7,7 +7,6 @@
 }
 
 html {
-    // height: 100%;
     font-size: 17px;
     background-color: #fff;
     color: #333;
@@ -28,7 +27,7 @@ a {
     line-height: 1;
     
     &:hover {
-        color: red;
+        color: #555;
     }
 }
 
@@ -41,8 +40,3 @@ li {
     list-style: circle;
 }
 
-@media (max-width: 1023px) {
-    a {
-        padding: 5px;
-    }
-}

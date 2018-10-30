@@ -17,7 +17,7 @@ html(lang="en")
 
 
         block styles
-            //- link(href="css/normalize/normalize.css" rel="stylesheet")
+            link(href="css/normalize/normalize.css" rel="stylesheet")
             //- link(href="css/" + file_name + ".css" rel="stylesheet")
             //- link(href="css/main.css?" + new Date().getTime() rel="stylesheet")
             link(href="css/main.css" rel="stylesheet")
@@ -35,9 +35,6 @@ html(lang="en")
         meta(name='description' content=pageDescription || '')
         meta(name='keywords' content=pageKeywords || '')
 
-        <!--[if lte IE 9]>
-        script(src="js/html5shiv/html5shiv.min.js")
-        <![endif]-->
     body
         +b.page-wrapper
             include layout/header.pug

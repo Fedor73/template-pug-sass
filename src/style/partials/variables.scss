@@ -1,8 +1,8 @@
 // Fonts
-$font-base: "roboto";
+$font-base: "Arimo-Regular";
 
 // Animation
-$animation-time: 0.2s;
+$animation-time: 0.3s;
 $double-animation: 0.6s;
 
 // MediaQ - теперо подключаются в layout
@@ -11,13 +11,6 @@ $double-animation: 0.6s;
 // $tablet: ~"(max-width: 1023px)";
 // $mobile: ~"(max-width: 767px)";
 
-@mixin font-montserrat ($weight){
-    font-family: 'montserrat';
-    font-weight: $weight;
-}
-@mixin roboto ($weight){
-    font-weight: $weight;
-}
 @mixin icon-size($size) {
     height: $size;
     line-height: $size;
@@ -45,16 +38,11 @@ $cl-white: #ffffff;
 $cl-black: #000000;
 $cl-gray: #a1a1a1;
 $cl-dark-grey: #737373;
-$cl-light-gray: #f3f3f3;
-$cl-pink: #d42386;
-$cl-light-pink: #ec1d91;
-$cl-red: #ff3900;
-$cl-dark-red: #e03b0e;
 $gainsborough: #e0e0e0;
 
 
 // Colors
-// Цвета theme. Не трогать!!!
+// Цвета theme. Не трогать!
 $cl-theme-global: $cl-black;
 $cl-theme-link: $cl-black;
 $cl-theme-link-hover: $cl-gray;
@@ -70,52 +58,33 @@ $cl-font-light: $cl-gray;
 
 // Общий док
 $background: $cl-white;
-$main-background: $cl-light-gray;
+$main-background: $cl-white;
 
 // разделитель между секция
-$hr-main: $cl-gray;
+
 
 // элементы формы (input, textarea, select, etc)
-$form-back: $cl-white;
-$form-border: $gainsborough;
-$form-border-hover: $cl-black;
-$form-error: $cl-red;
-$input-border-error: $cl-dark-red;
 
 
 // кнопки с бэком без бордера
-$button-main-back: $cl-black;
-$button-main-hover: $cl-gray;
-$button-main-active: $cl-gray;
+
 
 // кнопки прозрачные
-$button-transparent-back: $cl-transparent;
-$button-transparent-hover: $cl-gray;
-$button-transparent-active: $cl-gray;
 
 
 // стрелки
-$arrow: $cl-white;
-$arrow-black: $cl-black;
-$arrow-hover: $cl-light-pink;
+
 
 // дотсы
-$dots: $cl-white;
-$dots-background: $cl-black;
-$dots-black: $cl-black;
-$dots-hover: $cl-pink;
+
 
 
 // радио и чексбоксы
-$background-radio: $gainsborough;
-$checked: $cl-pink;
-$check-mark: $cl-white;
+
 
 
 // теги
-$tag-border: #dddddd;
-$tag-active: $cl-black;
-$tag-color: $cl-white;
+
 
 // ------
 // ЦВЕТА
@@ -127,14 +96,6 @@ $cl-alpha-black: rgba(0, 0, 0, .5); // чeрный .5
 
 // Генерируемые цвета - ниже не пишем ничего сами )
 
-
-
 $text: $cl-black;
-$hover-link: $cl-pink;
-$spinner-back: $cl-white;
-$spinner-text: $cl-alpha-black;
-$spinner-button: $cl-black;
-$spinner-button-hover: $cl-pink;
-$spinner-button-disabled: $cl-gray;
 $text-white: $cl-white;
-$hover-link: $cl-pink;
+

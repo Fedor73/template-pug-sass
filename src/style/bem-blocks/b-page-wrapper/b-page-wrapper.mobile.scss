@@ -10,7 +10,6 @@
     overflow-x: hidden;
     overflow-y: auto;
     height: 100%;
-    background-color: $main-background;
 
     &.no-scroll {
         position: fixed;
@@ -26,10 +25,6 @@
         touch-action: none;
     }
 
-    // fix scroll block when open popup
-    // need only for windows
-    // and only desktop
-    // and have scroll
     &.no-scroll.windows {
         padding-right: 17px;
     }
